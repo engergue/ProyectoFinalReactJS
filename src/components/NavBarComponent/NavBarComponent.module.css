@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: #03406f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navItems {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    padding: 20px;
+    color: white;
+   
+    
+}
+.navItems > a {
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+}
+
+.nav img{
+    width: 100px;
+    padding: 0 30px;
+}

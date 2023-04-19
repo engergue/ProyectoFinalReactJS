@@ -1,0 +1,129 @@
+body{
+  background-color: #f5f5f5
+}
+.card {
+    overflow: hidden;
+    box-shadow: 10px 18px 39px 0px rgb(0 0 0 / 10%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 50px 25px 30px 0px;
+    padding: 40px;
+    border-radius: 25px;
+    min-height: 400px;
+    background-color: #ffffff;
+    max-width: 20%;
+  }
+
+  .card-link{
+    max-width: 25%;
+  }
+
+  a.card-link{
+    text-decoration: none;
+  }
+  
+  .card-img {
+    display: block;
+    width: auto;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #03406f;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #444444;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contador{
+    text-align: center;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    font-weight: 400;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .lessButton, .addButton {
+    border: none;
+    font-size: 20px;
+    background: none;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #03406f;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover{
+    background-color: #000000;
+  }
+  
+  .precio {
+    font-size:20px;
+    font-weight: 900;
+    color: #03406f;
+    text-align: center;
+  }
+  
+  /* Nuevos estilos */
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
+  }
+  
+  .col-producto {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  @media (min-width: 576px) {
+    .col-producto {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .col-producto {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+  

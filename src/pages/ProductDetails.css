@@ -1,0 +1,79 @@
+.detalle-producto {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
+    
+}
+
+.product-left {
+    width: 50%;
+}
+
+.product-left img {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 20px;
+
+}
+
+.product-right {
+    width: 50%;
+}
+
+.product-right h2{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #03406f;
+}
+
+.product-right .precio {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: #03406f;
+}
+
+.botones-detalle {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 50px 0
+}
+
+.botones-detalle .contador{
+    text-align: center;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-weight: 400;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .botones-detalle .lessButton, .botones-detalle .addButton {
+    border: none;
+    font-size: 20px;
+    background: none;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .botones-detalle .btn-primary {
+    background-color: #03406f;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .botones-detalle .btn-primary:hover{
+    background-color: #000000;
+  }
